@@ -1,0 +1,122 @@
+Full-page container
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../assets/img/green3.jpg'); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+/* Card-style login box */
+.form-card {
+  background-color: #ffffffee; /* Slight transparency */
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.form-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading */
+.form-card h2 {
+  margin-bottom: 1.8rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 4px rgba(102, 126, 234, 0.5);
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a67d8;
+}
+
+/* Optional redirect text */
+.redirect-msg {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.link-text {
+  color: #667eea;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 600px) {
+  .auth-container {
+    padding: 10px;
+  }
+
+  .form-card {
+    padding: 2rem;
+    box-shadow: none;
+  }
+
+  .form-card h2 {
+    font-size: 1.5rem;
+  }
+}
+/* Make room for the avatar to overlap */
+.form-card {
+  position: relative;
+  padding-top: 58px; /* important */
+}
+
+/* Monkey avatar badge */
+.login-monkey {
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  top: -43px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  z-index: 2;
+}
+

@@ -1,0 +1,103 @@
+/* NAVBAR STYLES */
+.navbar {
+   background-image: url("../../assets/img/wooden.jpg"); /* Correct relative path */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 1.5rem;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+   position: relative;
+}
+
+.logo {
+   color: #fff8dc;
+   font-size: 1.3rem;
+   font-weight: bold;
+   font-family: 'Georgia', serif;
+   text-shadow: 1px 1px 2px black;
+   margin: 0;
+}
+
+.nav-links {
+   display: flex;
+   gap: 1rem;
+}
+
+.nav-links a {
+   color: #fff8dc;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Verdana', sans-serif;
+   transition: color 0.3s ease;
+   font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+   color: #ffffe0;
+   text-decoration: underline;
+}
+
+/* MONKEY IMAGE BELOW NAV */
+.monkey-container {
+   padding: 0.3rem 1.5rem;
+}
+
+.monkey-img {
+   height: 60px;
+   object-fit: cover; /* Optional: keeps image from stretching */
+}
+
+
+/* HAMBURGER ICON */
+.hamburger {
+   display: none;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.hamburger span {
+   height: 3px;
+   width: 25px;
+   background: #fff8dc;
+   margin: 4px 0;
+   transition: 0.3s ease;
+}
+
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+   .navbar {
+     flex-direction: column;
+     align-items: flex-start;
+     height: auto;
+     padding: 0.7rem 1rem;
+   }
+
+   .hamburger {
+     display: flex;
+     position: absolute;
+     top: 15px;
+     right: 20px;
+   }
+
+   .nav-links {
+     display: none;
+     flex-direction: column;
+     align-items: flex-start;
+     width: 100%;
+     margin-top: 1rem;
+     gap: 0.5rem;
+   }
+
+   .nav-links.open {
+     display: flex;
+   }
+
+   .logo {
+     font-size: 1.1rem;
+   }
+}

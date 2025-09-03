@@ -1,0 +1,66 @@
+.auth-container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.form-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-card h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background-color: #1d4ed8;
+}
+
+.login-monkey {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}

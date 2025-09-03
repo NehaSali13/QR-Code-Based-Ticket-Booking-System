@@ -1,0 +1,65 @@
+/* src/pages/Admin/DeleteStaff.css */
+
+.delete-staff-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.delete-staff-title {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.delete-staff-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.delete-staff-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  transition: 0.2s;
+}
+
+.delete-staff-input:focus {
+  border-color: #e74c3c;
+}
+
+.delete-staff-btn {
+  padding: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-staff-btn:hover {
+  background-color: #c0392b;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+/* src/pages/User/BookTicket.css */
+.ticket-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #f7faff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ticket-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-row label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ticket-row input {
+  width: 80px;
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.proceed-btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #0080ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.proceed-btn:hover {
+  background-color: #005bb5;
+}
+
+.welcome-msg {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2e8b57;
+  margin-bottom: 10px;
+}

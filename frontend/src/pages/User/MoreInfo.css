@@ -1,0 +1,81 @@
+/* MoreInfo.css */
+.more-info-page {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.more-info-page h2 {
+  font-size: 32px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #0077b6;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section ul li {
+  font-size: 18px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section ul li:last-child {
+  border-bottom: none;
+}
+
+.info p {
+  font-size: 17px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.info strong {
+  width: 140px;
+  display: inline-block;
+  color: #2c3e50;
+}
+
+@media screen and (max-width: 600px) {
+  .more-info-page {
+    padding: 20px;
+  }
+
+  .more-info-page h2 {
+    font-size: 26px;
+  }
+
+  .section h3 {
+    font-size: 20px;
+  }
+
+  .section ul li {
+    font-size: 16px;
+  }
+
+  .info strong {
+    width: auto;
+  }
+}

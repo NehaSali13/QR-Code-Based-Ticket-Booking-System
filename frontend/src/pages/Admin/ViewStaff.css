@@ -1,0 +1,84 @@
+/* ViewStaff.css */
+
+.staff-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.staff-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 24px;
+  font-size: 26px;
+}
+
+.staff-search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.staff-search input {
+  padding: 10px 15px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.staff-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.staff-table th,
+.staff-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.staff-table th {
+  background-color: #34495e;
+  color: white;
+}
+
+.staff-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+.pagination-controls button {
+  padding: 8px 14px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-weight: bold;
+  font-size: 15px;
+}

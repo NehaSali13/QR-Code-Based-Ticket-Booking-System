@@ -1,0 +1,74 @@
+/* src/components/Location.css */
+
+.location-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.location-address,
+.location-hours,
+.location-fee {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.location-map {
+  margin-top: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .location-container {
+    padding: 1.5rem;
+  }
+
+  .location-title {
+    font-size: 1.6rem;
+  }
+
+  .location-address,
+  .location-hours,
+  .location-fee {
+    font-size: 1rem;
+  }
+
+  .location-map iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .location-container {
+    padding: 1rem;
+  }
+
+  .location-title {
+    font-size: 1.4rem;
+  }
+
+  .location-address,
+  .location-hours,
+  .location-fee {
+    font-size: 0.95rem;
+  }
+
+  .location-map iframe {
+    height: 250px;
+  }
+}

@@ -1,0 +1,104 @@
+/* src/components/About.css */
+
+.about-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.about-hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-overlay p {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.about-intro, .about-visit {
+  padding: 2rem 10%;
+  text-align: center;
+}
+
+.about-intro h2, .about-visit h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 10%;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.highlight.reverse {
+  flex-direction: row-reverse;
+}
+
+.highlight img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.highlight-text {
+  width: 50%;
+}
+
+.highlight-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-visit ul {
+  list-style:none;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1.8;
+  /* background-color:#c5e6adbe; */
+
+}
+
+.about-visit li {
+  margin-bottom: 0.5rem;
+}

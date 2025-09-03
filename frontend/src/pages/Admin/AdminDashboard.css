@@ -1,0 +1,203 @@
+/* src/pages/Admin/AdminDashboard.css */
+.admin-dashboard {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #f4f6f8, #e0f7fa);
+  color: #000;
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.admin-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.top-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.top-controls input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.top-controls button {
+  padding: 0.5rem 1rem;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.top-controls button:hover {
+  background-color: #0d47a1;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.dark-mode .dashboard-header p {
+  color: #bbb;
+}
+
+.dashboard-grid-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+  width: 50%;
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card .icon {
+  font-size: 1.8rem;
+  color: #1976d2;
+}
+
+.dashboard-card h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.dark-mode .dashboard-card {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-mode .dashboard-card .icon {
+  color: #90caf9;
+}
+
+
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+}
+
+.admin-container {
+  max-width: 700px;
+  margin: auto;
+  background-color: var(--card-bg);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-top: 30px;
+  color: var(--text);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #0d6efd;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #bb2d3b;
+}
+
+.booking-card {
+  border-left: 6px solid #3f51b5;
+  background-color: #f1f4ff;
+}

@@ -1,0 +1,89 @@
+/* src/pages/User/Invoice.css */
+
+.invoice-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.invoice-container h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.ticket-box {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+}
+
+.ticket-box p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.ticket-box strong {
+  color: #2c3e50;
+}
+
+.ticket-items {
+  margin-top: 15px;
+}
+
+.ticket-items h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.ticket-items ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ticket-items li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.qr-section {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.qr-section h4 {
+  margin-bottom: 10px;
+}
+
+.qr-img {
+  margin: 10px auto;
+}
+
+.qr-id {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.btn-home {
+  margin-top: 30px;
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: #2980b9;
+}

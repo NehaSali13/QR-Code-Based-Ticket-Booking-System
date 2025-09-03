@@ -1,0 +1,56 @@
+/* src/components/Register.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   background-image: url('../../assets/img/green3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.form-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #5a67d8;
+}
+
+.redirect-msg {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.link-text {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+}
